@@ -1,0 +1,12 @@
+[project]
+authors = ["Vishnu Putta <vishnu.reddy@carelon.com>"]
+channels = ["conda-forge", "https://conda.modular.com/max-nightly"]
+description = "Add a short description here"
+name = "hello-world-nightly"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+max = ">=24.6.0.dev2024092205,<25"
